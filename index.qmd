@@ -1,0 +1,43 @@
+---
+title: "Goal"
+---
+
+# Programming a simple language with R
+
+Logo goes back much earlier than the Apple II, it was developed in 1967 by Cynthia Solomon, Wally Feurzig, and Seymour Papert. That's five years before C and 24 years before Python! The three worked at Bolt, Beranek, and Newman (BBN), famous for all kinds of other computing history. BBN built the first Interface Message Processors (early routers) in 1968 for the ARPANET, which would evolve into the modern internet. [...learn more](https://learn.adafruit.com/program-logo-on-an-apple-ii/what-is-logo)
+
+## Commands
+
+***Overview of some turtle commands and their shorthand equivalents:***
+
+CLEARSCREEN - Clear the screen. (Shorthand: CS)
+
+HIDETURTLE - Don't show the turtle cursor. (HT)
+
+SHOWTURTLE - Show the turtle cursor. (ST)
+
+HOME - Move back to the home position.
+
+FORWARD steps - Move forward steps. (FD)
+
+BACK steps - Move back steps. (BK)
+
+LEFT degrees - Turn left this many degrees. Negative degrees work too, they'll turn it right. (LT)
+
+RIGHT degrees - Turn right this many degrees. (RT)
+
+SETHEADING degrees - Turn to an absolute heading of degrees. (SETH)
+
+SETPOS \[x y\] - Set the position to x, y coordinates. These are Cartesian, so 0,0 is the middle of the screen.
+
+SETX x - Set the horizontal position to x.
+
+SETY y - Set the vertical position to y.
+
+## Planed Result
+
+Generate this code-Line with your own Logo-Code:
+
+**REPEAT 20 \[REPEAT 180 \[FD 1 RT 2\] RT 18\]**
+
+![](Logo_test.gif)

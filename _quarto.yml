@@ -1,0 +1,36 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+
+execute:
+  freeze: auto
+  engine: knitr
+  port: 8877
+  cache: true
+
+website:
+  title: "Hubert Baechli:"
+  back-to-top-navigation: true
+  page-navigation: true
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Goal
+      - href: LOGO_Hubi.qmd
+        text: Logo 
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-link: true
+    code-copy: true
+    code-tools: true
+    code-fold: false
+    code-overflow: wrap
+    page-layout: full
+    css: styles.css
+
+editor: visual
