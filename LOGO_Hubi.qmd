@@ -78,7 +78,7 @@ FORWARD <- function (step) {
   
   max_step <- 1
   
-  if (step > max_step) {
+  if (abs(step) > max_step) {
     n_step <- abs(step)%/%(max_step * 1.5) + 1
     Seq0 <- seq(from = 0, to = 1, by = 1/n_step)
     Seq0 <- Seq0[-1]
@@ -916,4 +916,15 @@ run_LOGO("SPEED 1 saVe [Logo04]")
 
 ```{r, results='hide', message=FALSE, warning=FALSE}
 run_LOGO("QUIT")
+```
+
+## Testing Back
+
+```{r}
+run_LOGO("CS")
+run_LOGO("SPEED 1")
+run_LOGO("FD 200 lt 90 fd 50 lt 90")
+run_LOGO("FD 400 ")
+run_LOGO("rt 90 fd 50 lt 90")
+run_LOGO("bk 400")
 ```
