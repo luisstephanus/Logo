@@ -10,7 +10,7 @@ execute:
   cache: true
 
 website:
-  title: "Hubert Baechli:"
+  title: "Kopie von Hubert Baechli zum Testen:"
   back-to-top-navigation: true
   page-navigation: true
 
