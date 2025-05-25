@@ -10,7 +10,7 @@ execute:
   cache: true
 
 website:
-  title: "Kopie von Hubert Baechli zum Testen:"
+  title: "My Logo Project"
   back-to-top-navigation: true
   page-navigation: true
 
